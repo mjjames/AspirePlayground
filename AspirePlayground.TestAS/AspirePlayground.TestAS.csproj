@@ -17,4 +17,8 @@
       </Content>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\AspirePlayground.ServiceDefaults\AspirePlayground.ServiceDefaults.csproj" />
+    </ItemGroup>
+
 </Project>
