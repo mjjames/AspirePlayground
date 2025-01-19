@@ -1,0 +1,12 @@
+﻿services:
+  aspireplayground:
+    image: aspireplayground
+    build:
+      context: .
+      dockerfile: AspirePlayground/Dockerfile
+
+  aspireplayground.blazor:
+    image: aspireplayground.blazor
+    build:
+      context: .
+      dockerfile: AspirePlayground.Blazor/Dockerfile

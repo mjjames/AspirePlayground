@@ -1,0 +1,6 @@
+@AspirePlaygroundAS_HostAddress = http://localhost:5116
+
+GET {{AspirePlaygroundAS_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
